@@ -21,11 +21,11 @@ const Localidades = () => {
             <div className="row">
                 <div class="col-auto me-auto"></div>
                 <div class="col-auto">
-                    <button type="button" class=" float-right btn shadow-sm btn-success mb-4" onClick={handleShow}>Cadastro de Localidades</button>
+                    <button type="button" class=" float-right btn shadow-sm btn-success mb-4" onClick={handleShow}>Novo localidades</button>
                 </div>
                  
             </div>
-            <table class="table table-borderless mr-4">
+            <table class="table table-borderless table-hover mr-4">
                 <thead>
                     <tr>
                     <th scope="col">#</th>

@@ -37,7 +37,14 @@
     padding-left: 10px;
   }
   
+<<<<<<< HEAD
 
+=======
+  .nav-text a:hover {
+    background-color: #63ff1a;
+    height: 50px;
+  }
+>>>>>>> 17899047125cd861c34f21662417a4a1a19bd7fc
   
   .nav-menu-items {
     width: 100%;
@@ -46,8 +53,17 @@
     padding-left: 10px !important;
 }
   
+<<<<<<< HEAD
   .navbar-toggle {
     width: 100%;
   }
+=======
+
+  dl, ol, ul {
+    padding-top: 30px !important;
+   
+}
+
+>>>>>>> 17899047125cd861c34f21662417a4a1a19bd7fc
 
   
