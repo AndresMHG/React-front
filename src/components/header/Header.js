@@ -11,7 +11,7 @@ const Header = () => (
         <div className="container row">
             <div className="col pr-0 mr-0">
                 <img className="header-logo " src={logo} alt="Logo " />
-                <img className="header-logo " src={logo2} alt="Logo "/>
+                {/* <img className="header-logo " src={logo2} alt="Logo "/> */}
             </div>
            
         </div>

@@ -47,6 +47,7 @@ const App = () => (
         <Layout>
             <Switch>
                 {/* <Route exact path="/" component={Cadastro} /> */}
+                <PrivateRoute exact path="/" component={Cadastro} />
                 <PrivateRoute exact path="/cadastro" component={Cadastro} />
                 <PrivateRoute exact path="/permissao" component={Permissao} />
                 <PrivateRoute exact path="/referencia" component={Referencia} />

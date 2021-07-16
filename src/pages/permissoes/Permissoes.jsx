@@ -11,7 +11,7 @@ const Permissoes = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return(
-        <div className="container_cadastro ">
+        <div className="container_cadastro">
 
             <table class="table table-hover">
             <thead>
