@@ -1,33 +1,33 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/static/logo.png';
-import logo2 from '../../assets/static/logo2.png';
+import avatar from '../../assets/static/avatar.png';
 import "./style/Header.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Navbar, Container } from 'react-bootstrap';
 import { FaUserCircle } from "react-icons/fa";
+import { Dropdown } from 'react-bootstrap';
+import { Avatar } from '@material-ui/core';
 
 const Header = () => (
-    <nav className="navbar navbar-expand-lg border-bottom  ">
-        <div className="container ">
-            <div className="">
-                <img className="header-logo " src={logo} alt="Logo " />
-                {/* <img className="header-logo " src={logo2} alt="Logo "/> */}
+    <>
+       <nav class="navbar navbar-light border-bottom shadow-sm">
+            <div class=" mx-0 pr-0">
+                <div className="row mx-0">
+                <div className="col-10">
+                    <img src={logo} className="header-logo" />
+                </div>
+
+                <div className="col-1 mt-2">
+                <p className="m-2 container_avatar">UserName</p>
+                </div>
+                <div className="col-1 container_avatar mt-2">
+                    <Avatar src={avatar} />
+                </div>
+                </div>
             </div>
-           
-        </div>
-        {/*  */}
-        <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-                <li className="nav-item">
-                    <div className="nav-link active pr-4" aria-current="page">User Master</div>
-                </li>
-                <li className="nav-item text-center">
-                        
-                            <FaUserCircle className="container-icon" />
-                </li>
-            </ul>
-        </div>
-    </nav>
+        </nav>
+    </>
 );
 
 export default Header;
