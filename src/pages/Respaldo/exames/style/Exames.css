@@ -1,0 +1,25 @@
+.container-exames{
+    min-height: 90vh;
+}
+.button-light{
+    color: #000;
+    background-color: #e2e6ea;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    
+}
+
+.font-color{
+    color: rgba(80, 80, 80, 0.829);
+    font-weight: bold;
+
+}
+.icon-delete{
+    font-size: 22px;
+    color: red;
+    cursor: pointer;
+}
+.icon-new{
+ color: #0069c0;
+ font-size: 22px;
+}

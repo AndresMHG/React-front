@@ -1,0 +1,14 @@
+.container-atestados {
+ min-height: 90vh;
+}
+
+.__style-checkbox {
+    width: auto !important;
+}
+
+.button-lightt{
+    color: rgba(80, 80, 80, 0.829);
+    background-color: #e2e6ea;
+
+    
+}

@@ -1,0 +1,14 @@
+.container-prescricao{
+  min-height: 90vh;
+}
+
+.btn-outline-danger {
+    color: #ee0a0a;
+    border-color:  #ced4da !important;
+}
+
+.icon-delete{
+    font-size: 22px;
+    color: red;
+    cursor: pointer;
+}

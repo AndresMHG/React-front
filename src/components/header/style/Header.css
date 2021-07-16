@@ -1,0 +1,42 @@
+.header-logo{
+    width: 30%;
+}
+
+.navbar {
+    height: 10vh !important;
+}
+
+.nav {
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    font-size: 2rem !important;
+    font-weight: 500;
+    box-shadow: 0px 1px 0px rgb(0 0 0 / 25%);
+    height: 10vh
+    
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(102, 102, 102, 0.863) !important;
+    padding-right: 45px ;
+}
+/* 
+.nav-links a:hover {
+    border: 1px solid #3d82a6;
+    border-radius: 6.25rem;
+    color: #226182;
+}
+
+.btnCad {
+    background-color: #3d82a6;
+    border: none;
+    padding: 8px 8px!important;
+    color: white !important;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 6.25rem;
+    cursor: pointer;
+    margin-right: 40px;
+} */
