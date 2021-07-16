@@ -11,27 +11,27 @@ export const SidebarData = [
       subNav: [
         {
           title: 'Setor',
-          path: '/referencia/templates',
+          path: '/cadastro/setor',
           icon: <MdDescription />
         },
         {
           title: 'Localidades',
-          path: '/referencia/intruçoes',
+          path: '/cadastro/localidades',
           icon: <MdDescription />
         },
         {
           title: 'Empresa',
-          path: '/referencia/procedimentos',
+          path: '/cadastro/empresa',
           icon: <MdDescription />
         },
         {
           title: 'Perfil',
-          path: '/referencia/normas',
+          path: '/cadastro/perfil',
           icon: <MdDescription />
         },
         {
           title: 'Usuário',
-          path: '/referencia/tutorial',
+          path: '/cadastro/usuario',
           icon: <MdDescription />
         }
       ]

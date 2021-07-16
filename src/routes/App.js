@@ -17,6 +17,13 @@ import Tutorial from '../pages/referencia/Tutorial';
 /*  */
 import Acampanhamento from '../pages/porfolio/Acampanhamento';
 import Projectos from '../pages/porfolio/Projectos';
+/*  */
+import Setor from '../pages/cadastro/Setor';
+import Localidades from '../pages/cadastro/Localidades';
+import Empresa from '../pages/cadastro/Empresa';
+import Perfil from '../pages/cadastro/Perfil';
+import Usuario from '../pages/cadastro/Usuario';
+import Orgao from '../pages/cadastro/Orgao';
 
 const handleToRigthRoute = (props,Component) => {
     let response_component;
@@ -49,7 +56,13 @@ const App = () => (
                 {/* <Route exact path="/" component={Cadastro} /> */}
                 <PrivateRoute exact path="/" component={Cadastro} />
                 <PrivateRoute exact path="/cadastro" component={Cadastro} />
-                <PrivateRoute exact path="/permissao" component={Permissao} />
+                <PrivateRoute exact path="/cadastro/setor" component={Setor} />
+                <PrivateRoute exact path="/cadastro/localidades" component={Localidades} />
+                <PrivateRoute exact path="/cadastro/empresa" component={Empresa} />
+                <PrivateRoute exact path="/cadastro/perfil" component={Perfil} />
+                <PrivateRoute exact path="/cadastro/usuario" component={Usuario} />
+                <PrivateRoute exact path="/cadastro/orgao" component={Orgao} />
+                <PrivateRoute exact path="/permissao/" component={Permissao} />
                 <PrivateRoute exact path="/referencia" component={Referencia} />
                 <PrivateRoute exact path="/referencia/templates" component={Templates} />
                 <PrivateRoute exact path="/referencia/intruçoes" component={Intruçoes} />
