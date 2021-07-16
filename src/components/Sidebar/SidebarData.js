@@ -5,96 +5,72 @@ import { MdModeEdit, MdSettingsApplications, MdDescription, MdOfflinePin  } from
 export const SidebarData = [
   {
     title: 'Cadastro de Usuários',
-    path: '/protuario',
+    path: '/cadastro',
     icon: <MdAssignmentInd />,
-    cName: 'nav-text',
-      subNav: [
-        {
-          title: 'Controle de Acceso / Permissões',
-          path: '/cadastro/permissoes',
-          icon: <MdAssignmentInd />
-        },
-        {
-          title: 'Documentação de Refêrencia',
-          path: '/overview/revenue',
-          icon: <MdAssignmentInd />
-        }
-      ]
+    cName: 'nav-text'
   },
   {
     title: 'Controle de Acesso / Premissões',
-    path: '/prescricao',
+    path: '/permissao',
     icon: <MdModeEdit />,
     cName: 'nav-text',
-    subNav: [
-      {
-        title: 'Controle de Acceso / Permissões',
-        path: '/overview/users',
-        icon: <MdModeEdit />
-      },
-      {
-        title: 'Documentação de Refêrencia',
-        path: '/overview/revenue',
-        icon: <MdModeEdit />
-      }
-    ]
   },
   {
     title: 'Documentação de Referência',
-    path: '/exames',
+    path: '/referencia',
     icon: <MdDescription />,
     cName: 'nav-text',
 
     subNav: [
       {
         title: 'Templates',
-        path: '/overview/users',
+        path: '/referencia/templates',
         icon: <MdDescription />
       },
       {
         title: 'Intruçoes Técnicas',
-        path: '/overview/revenue',
+        path: '/referencia/intruçoes',
         icon: <MdDescription />
       },
       {
         title: 'Procedimentos Operacionais',
-        path: '/overview/revenue',
+        path: '/referencia/procedimentos',
         icon: <MdDescription />
       },
       {
         title: 'Normas Técnicas',
-        path: '/overview/revenue',
+        path: '/referencia/normas',
         icon: <MdDescription />
       },
       {
         title: 'Tutorial utilização SIGO',
-        path: '/overview/revenue',
+        path: '/referencia/tutorial',
         icon: <MdDescription />
       }
     ]
   },
   {
     title: 'Timeline Porfólio',
-    path: '/atestados',
+    path: '/porfolio',
     icon: <MdOfflinePin />,
     cName: 'nav-text',
 
     subNav: [
       {
         title: 'Acompanhamento Contratual',
-        path: '/overview/users',
+        path: '/porfolio/acompanhamento',
         icon: <MdOfflinePin />
       },
       {
         title: 'Dados para Escritório de Projectos',
-        path: '/overview/revenue',
+        path: '/porfolio/projectos',
         icon: <MdOfflinePin />
       }
     ]
   },
   {
     title: 'Projeto A',
-    path: '/presets',
+    path: '/projeto',
     icon: <MdSettingsApplications />,
     cName: 'nav-text'
   }

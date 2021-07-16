@@ -1,5 +1,5 @@
 .header-logo{
-    width: 30%;
+    width: 15%;
 }
 
 .navbar {
@@ -20,23 +20,8 @@
     color: rgba(102, 102, 102, 0.863) !important;
     padding-right: 45px ;
 }
-/* 
-.nav-links a:hover {
-    border: 1px solid #3d82a6;
-    border-radius: 6.25rem;
-    color: #226182;
-}
 
-.btnCad {
-    background-color: #3d82a6;
-    border: none;
-    padding: 8px 8px!important;
-    color: white !important;
-    font-size: 1.2rem;
-    text-align: center;
-    text-decoration: none;
-    padding: 3px;
-    border-radius: 6.25rem;
-    cursor: pointer;
-    margin-right: 40px;
-} */
+.container-icon {
+   height: 30px;
+   width: 30px;
+}

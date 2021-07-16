@@ -1,12 +1,11 @@
 import React from 'react';
-import './style/cadastro.css';
 
-const Cadastro = () => {
+const Permissoes = () => {
     return(
         <div className="container_cadastro">
-            Caastro
+            permissaopermissao
         </div>
     );
 }
 
-export default Cadastro;
+export default Permissoes;

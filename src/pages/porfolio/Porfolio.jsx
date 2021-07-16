@@ -1,12 +1,11 @@
 import React from 'react';
-import './style/cadastro.css';
 
-const Cadastro = () => {
+const Porfolio = () => {
     return(
         <div className="container_cadastro">
-            Caastro
+            porfolio
         </div>
     );
 }
 
-export default Cadastro;
+export default Porfolio;
