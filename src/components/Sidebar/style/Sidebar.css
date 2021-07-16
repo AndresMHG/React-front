@@ -45,6 +45,9 @@
   .nav-menu-items {
     width: 100%;
   }
+  .nav-menu-items ol, ul {
+    padding-left: 1rem !important;
+}
   
   .navbar-toggle {
     background-color: #060b26;
