@@ -37,10 +37,7 @@
     padding-left: 10px;
   }
   
-  .nav-text a:hover {
-    background-color: #1a83ff;
-    height: 50px;
-  }
+
   
   .nav-menu-items {
     width: 100%;
@@ -50,7 +47,6 @@
 }
   
   .navbar-toggle {
-    background-color: #060b26;
     width: 100%;
   }
 

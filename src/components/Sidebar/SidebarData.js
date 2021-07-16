@@ -42,7 +42,6 @@ export const SidebarData = [
     icon: <MdModeEdit />,
     cName: 'nav-text',
   },
-  /*
   {
     title: 'Documentação',
     path: '/referencia',
@@ -101,5 +100,5 @@ export const SidebarData = [
     path: '/projeto',
     icon: <MdSettingsApplications />,
     cName: 'nav-text'
-  } */
+  } 
 ];
