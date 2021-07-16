@@ -7,9 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaUserCircle } from "react-icons/fa";
 
 const Header = () => (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-        <div className="container row">
-            <div className="col pr-0 mr-0">
+    <nav className="navbar navbar-expand-lg border-bottom  ">
+        <div className="container ">
+            <div className="">
                 <img className="header-logo " src={logo} alt="Logo " />
                 {/* <img className="header-logo " src={logo2} alt="Logo "/> */}
             </div>
@@ -22,9 +22,8 @@ const Header = () => (
                     <div className="nav-link active pr-4" aria-current="page">User Master</div>
                 </li>
                 <li className="nav-item text-center">
-                        <div>
+                        
                             <FaUserCircle className="container-icon" />
-                        </div>
                 </li>
             </ul>
         </div>

@@ -39,7 +39,7 @@ const Cadastro = () => {
                 </div>
                 <div className="row mt-4">
                     <div className="col">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" className="btn btn-success px-5">Submit</button>
                     </div>
                 </div>
             </form>
