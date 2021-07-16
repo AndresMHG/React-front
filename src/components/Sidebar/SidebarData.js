@@ -4,19 +4,47 @@ import { MdModeEdit, MdSettingsApplications, MdDescription, MdOfflinePin  } from
 
 export const SidebarData = [
   {
-    title: 'Cadastro de Usuários',
+    title: 'Cadastro',
     path: '/cadastro',
     icon: <MdAssignmentInd />,
-    cName: 'nav-text'
+    cName: 'nav-text',
+      subNav: [
+        {
+          title: 'Setor',
+          path: '/referencia/templates',
+          icon: <MdDescription />
+        },
+        {
+          title: 'Localidades',
+          path: '/referencia/intruçoes',
+          icon: <MdDescription />
+        },
+        {
+          title: 'Empresa',
+          path: '/referencia/procedimentos',
+          icon: <MdDescription />
+        },
+        {
+          title: 'Perfil',
+          path: '/referencia/normas',
+          icon: <MdDescription />
+        },
+        {
+          title: 'Usuário',
+          path: '/referencia/tutorial',
+          icon: <MdDescription />
+        }
+      ]
   },
   {
-    title: 'Controle de Acesso / Premissões',
+    title: 'Premissões',
     path: '/permissao',
     icon: <MdModeEdit />,
     cName: 'nav-text',
   },
+  /*
   {
-    title: 'Documentação de Referência',
+    title: 'Documentação',
     path: '/referencia',
     icon: <MdDescription />,
     cName: 'nav-text',
@@ -73,5 +101,5 @@ export const SidebarData = [
     path: '/projeto',
     icon: <MdSettingsApplications />,
     cName: 'nav-text'
-  }
+  } */
 ];
