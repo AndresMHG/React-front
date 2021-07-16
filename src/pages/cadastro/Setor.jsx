@@ -13,7 +13,7 @@ const Setor = () => {
     const handleClose2 = () => setShow2(false);
     const handleShow2 = () => setShow2(true);
     return(
-        <div className="container_cadastro">
+        <div className="container_cadastro p-4">
 
             <h5 className="">Setor</h5>
             <div className="row m-0">
@@ -23,11 +23,11 @@ const Setor = () => {
                     class=" float-right btn shadow-sm btn-success mb-4"
                     onClick={handleShow}
                     >
-                        Cadastro de Setor
+                        Novo setor
                     </button>
                 </div>
             </div>  
-            <table class="table table-borderless mr-4">
+            <table className="table table-borderless table-hover mb-2 mr-4">
                 <thead>
                     <tr>
                     <th scope="col">#</th>

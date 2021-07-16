@@ -21,7 +21,7 @@ const Perfil = () => {
             <div className="row">
                 <div class="col-auto me-auto"></div>
                 <div class="col-auto">
-                    <button type="button" class=" float-right btn shadow-sm btn-success mb-4" onClick={handleShow}>Cadastro de Localidades</button>
+                    <button type="button" class=" float-right btn shadow-sm btn-success mb-4" onClick={handleShow}>Novo perfil</button>
                 </div>
                  
             </div>

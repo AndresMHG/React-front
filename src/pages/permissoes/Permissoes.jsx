@@ -11,8 +11,12 @@ const Permissoes = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return(
-        <div className="container_cadastro">
-
+        <div className="container_cadastro p-4">
+            <div className="row mx-0 mb-5">
+                <div className="col">
+                <h5 >Premissões</h5>
+                </div>
+            </div>
             <table class="table table-hover">
             <thead>
                 <tr>

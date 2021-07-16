@@ -21,11 +21,11 @@ const Empresa = () => {
             <div className="row">
                 <div class="col-auto me-auto"></div>
                 <div class="col-auto">
-                    <button type="button" class=" float-right btn shadow-sm btn-success mb-4" onClick={handleShow}>Cadastro de Localidades</button>
+                    <button type="button" class=" float-right btn shadow-sm btn-success mb-4" onClick={handleShow}>Novo empresa</button>
                 </div>
                  
             </div>
-            <table class="table table-borderless mr-4">
+            <table class="table table-borderless table-hover mr-4">
                 <thead>
                     <tr>
                     <th scope="col">Nome</th>
@@ -128,26 +128,7 @@ const Empresa = () => {
                         <td>lorem@gmail.com</td>
                         <td> <MdModeEdit onClick={handleShow2} /> </td>
                     </tr>
-                    <tr>
-                        <td>Lorem ipsum </td>
-                        <td>75.256.701/0001-95</td>
-                        <td>Rua Engenheiro Carlos</td>
-                        <td>Parana</td>
-                        <td>Lorem </td>
-                        <td>(88)2559-8311</td>
-                        <td>lorem@gmail.com</td>
-                        <td> <MdModeEdit onClick={handleShow2} /> </td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum </td>
-                        <td>75.256.701/0001-95</td>
-                        <td>Rua Engenheiro Carlos</td>
-                        <td>Parana</td>
-                        <td>Lorem </td>
-                        <td>(88)2559-8311</td>
-                        <td>lorem@gmail.com</td>
-                        <td> <MdModeEdit onClick={handleShow2} /> </td>
-                    </tr>
+                   
                 </tbody>
             </table>
 
