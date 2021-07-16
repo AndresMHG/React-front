@@ -46,7 +46,11 @@
     width: 100%;
   }
   .nav-menu-items ol, ul {
-    padding-left: 0 !important;
+    padding-left: 10px !important;
+}
+  
+  .navbar-toggle {
+    background-color: #060b26;
     width: 100%;
   }
 
