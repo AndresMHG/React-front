@@ -11,7 +11,7 @@ const Layout = ({children}, props) => {
                 </div>
             </div>
             <div className="row ml-0 mr-0">
-                { false ? <div className="col-2 pr-0 pl-0 shadow"> <Sidebar /> </div> : <></> } 
+                { false ? <div className="col-2 pr-0"> <Sidebar /> </div> : <></> } 
                 <div className="col pr-0 pl-0">
                     { children }
                 </div> 

@@ -14,8 +14,8 @@ const Sidebar = (props) => {
   const [ sidebar, setSidebar ] = useState(false);
 
     return (
-        <div className="row ml-0 mr-0">
-          <div className="col-2 pr-0 pl-0 shadow">
+        <div className="row ml-0 mr-0 pl-0">
+          <div className="col-2 p-0 shadow">
             <IconContext.Provider value={{ color: '#fff' }}>
               <nav className='nav-menu active'>
                   <div className="border-text">
