@@ -46,7 +46,7 @@
     width: 100%;
   }
   .nav-menu-items ol, ul {
-    padding-left: 1rem !important;
+    padding-left: 10px !important;
 }
   
   .navbar-toggle {

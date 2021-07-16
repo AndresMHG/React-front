@@ -13,10 +13,10 @@ const Setor = () => {
     const handleClose2 = () => setShow2(false);
     const handleShow2 = () => setShow2(true);
     return(
-        <div className="container_cadastro m-4">
+        <div className="container_cadastro">
 
             <h5 className="">Setor</h5>
-            <div className="row">
+            <div className="row m-0">
                 <div class="col-auto me-auto"></div>
                 <div class="col-auto">
                     <button type="button"

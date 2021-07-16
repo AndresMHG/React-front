@@ -54,8 +54,8 @@ const App = () => (
         <Layout>
             <Switch>
                 {/* <Route exact path="/" component={Cadastro} /> */}
-                <PrivateRoute exact path="/" component={Cadastro} />
-                <PrivateRoute exact path="/cadastro" component={Cadastro} />
+                <PrivateRoute exact path="/" component={Setor} />
+                <PrivateRoute exact path="/cadastro" component={Setor} />
                 <PrivateRoute exact path="/cadastro/setor" component={Setor} />
                 <PrivateRoute exact path="/cadastro/localidades" component={Localidades} />
                 <PrivateRoute exact path="/cadastro/empresa" component={Empresa} />
