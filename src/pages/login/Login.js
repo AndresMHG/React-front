@@ -2,7 +2,7 @@ import React  from 'react';
 import { Link } from 'react-router-dom';
 import fundo from '../../assets/static/fundo.jpg';
 import './style/Login.css'
-import logo from '../../assets/static/logo.png';
+import logo from '../../assets/static/logo_furnas.png';
 
 
 
@@ -63,6 +63,9 @@ const Login = () => {
                     </form>
 
                     <div className="login100-more image-fondo">
+                        <div class="d-flex justify-content-center align-self-center">
+                            {/* <img className="align-self-center imagen-logo" src={logo} height="100"/> */}
+                        </div>
                     </div>
                 </div>
             </div>
