@@ -24,6 +24,7 @@ import Empresa from '../pages/cadastro/Empresa';
 import Perfil from '../pages/cadastro/Perfil';
 import Usuario from '../pages/cadastro/Usuario';
 import Orgao from '../pages/cadastro/Orgao';
+import Login from '../pages/login/Login';
 
 const handleToRigthRoute = (props,Component) => {
     let response_component;
@@ -54,7 +55,7 @@ const App = () => (
         <Layout>
             <Switch>
                 {/* <Route exact path="/" component={Cadastro} /> */}
-                <PrivateRoute exact path="/" component={Setor} />
+                <Route exact path="/" component={Login} />
                 <PrivateRoute exact path="/cadastro" component={Setor} />
                 <PrivateRoute exact path="/cadastro/setor" component={Setor} />
                 <PrivateRoute exact path="/cadastro/localidades" component={Localidades} />
