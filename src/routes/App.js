@@ -25,6 +25,7 @@ import Perfil from '../pages/cadastro/Perfil';
 import Usuario from '../pages/cadastro/Usuario';
 import Orgao from '../pages/cadastro/Orgao';
 import Login from '../pages/login/Login';
+import Password from '../pages/password/Password';
 
 const handleToRigthRoute = (props,Component) => {
     let response_component;
@@ -56,6 +57,7 @@ const App = () => (
             <Switch>
                 {/* <Route exact path="/" component={Cadastro} /> */}
                 <Route exact path="/" component={Login} />
+                <Route exact path="/password/reset" component={Password} />
                 <PrivateRoute exact path="/cadastro" component={Setor} />
                 <PrivateRoute exact path="/cadastro/setor" component={Setor} />
                 <PrivateRoute exact path="/cadastro/localidades" component={Localidades} />

@@ -12,51 +12,44 @@ const Login = () => {
             <div className="container-login100">
                 <div className="wrap-login100">
                     <form className="login100-form validate-form">
-                        <span className="login100-form-title p-b-43">
-                            Login to continue
+
+                        <span className="login100-form-title p-b-43 mb-4">
+                            <h4>Login</h4>
                         </span>
                         
                         
-                        <div className="wrap-input100 validate-input">
-                            <input className="input100" type="text" name="email" />
-                            <span className="focus-input100"></span>
+                        <div className="mb-4 shadow " >
+                            <input className="form-control" type="email" name="email" placeholder="Email" />
                             <span className="label-input100">Email</span>
                         </div>
                         
                         
-                        <div className="wrap-input100 validate-input" data-validate="Password is required">
-                            <input className="input100" type="password" name="pass" />
-                            <span className="focus-input100"></span>
+                        <div className="mb-4 shadow">
+                            <input className="form-control" type="password" name="pass" placeholder="Password" />
                             <span className="label-input100">Password</span>
                         </div>
 
-                        <div className="flex-sb-m w-full p-t-3 p-b-32">
-                            <div className="contact100-form-checkbox">
-                                <input className="input-checkbox100" id="ckb1" type="checkbox" name="remember-me" />
-                                <label className="label-checkbox100" for="ckb1">
-                                    Remember me
-                                </label>
-                            </div>
+                        <div class="form-check mb-2 ">
+                            <input class="form-check-input shadow" type="checkbox" value="" id="flexCheckIndeterminate" />
+                            <label class="form-check-label" for="flexCheckIndeterminate">
+                                Lembrar senha
+                            </label>
+                        </div>
 
+
+                        <div className="flex-sb-m w-full p-t-3 p-b-32 mb-4">
                             <div>
-                                <a href="#" className="txt1">
-                                    Forgot Password?
-                                </a>
+                                <Link to="/password/reset" className="txt1">
+                                    Esqueceu a senha?
+                                </Link>
                             </div>
                         </div>
                 
 
-                        <div className="container-login100-form-btn">
-                            <button className="login100-form-btn">
-                                Login
-                            </button>
+                        <div class="d-grid gap-2">
+                            <Link to="/cadastro/setor" class="btn btn-success shadow" type="button">Iniciar sessão</Link>
                         </div>
                         
-                        <div className="text-center p-t-46 p-b-20">
-                            <span className="txt2">
-                                or sign up using
-                            </span>
-                        </div>
 
                         <div className="login100-form-social flex-c-m">
                             <a href="#" className="login100-form-social-item flex-c-m bg1 m-r-5">
